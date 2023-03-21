@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/affichage"
+        android:layout_width="match_parent"
+        android:layout_height= "50pt"
+        android:text=""
+        android:textSize="50px"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50px">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px">
+
+            <Button
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/textplus"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="+"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px">
+            <Button
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="6"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/textmoin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="-"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px">
+            <Button
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="7"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="8"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="9"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/textfois"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="x"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="50px"
+            android:layout_marginRight="50px">
+            <Button
+                android:id="@+id/textegale"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="="
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/text0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/textpoint"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="."
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+
+            <Button
+                android:id="@+id/textdiv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="%"
+                android:textSize="150px"
+                android:layout_weight="0.25"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
